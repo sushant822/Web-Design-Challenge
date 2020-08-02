@@ -1,0 +1,43 @@
+body{
+    background-color: #EDEDED; 
+}
+.navigation .navbar-brand {
+    color: white;
+    margin-left: 30px;
+    padding: inherit;
+}
+
+.navigation{
+	background: #BFC9CA;
+	text-shadow: 1px 1px #E5E8E8;
+}
+
+.box {
+    margin-top: 20px; 
+    margin-bottom: 22px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+  }
+
+.title{
+    font-weight: bolder; 
+    padding-top: 25px;
+	text-shadow: 2px 2px #E5E8E8;
+}
+
+.times{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-weight: bolder;
+	color: #34495E;
+    padding-top: 25px; 
+}
+
+.vizualization{
+    width:50%;
+    height:50%;
+}
+
+p{
+	color: slategrey;
+}
