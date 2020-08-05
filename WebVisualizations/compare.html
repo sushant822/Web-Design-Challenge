@@ -6,13 +6,24 @@
   <title>Comparision</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+	<style>
+	.threed:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+	</style>
 </head>
 
 <body>
     <!-- Navigation-->
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand shadow-sm p-2 mb-0 rounded" style="background-color: #34495E;" href="index.html"><strong>Latitude</strong></a>
+          <a class="navbar-brand shadow-sm p-2 mb-0 rounded" style="background-color: #34495E; text-shadow: 0px 0px" href="index.html"><strong>Latitude</strong></a>
           <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,33 +64,41 @@
           <p>Click any plot to get an in-depth analysis.</p>
           <div class="container" style="padding-bottom: 30px;">
             <div class="row">
+				
               <div class="col-lg-6" style="padding: 30px;" align="center">
+				  <div class="threed">
                 <div><strong>vs. Max Temperature</strong></div>
                 <a href="max_temperature.html" target="_blank">
                   <img src="Resources/assets/images/Fig1.png" alt="Max Temperature Image" width="500" class="panel img-thumbnail img-fluid">
                 </a>
+				  </div>
               </div>
               <div class="col-lg-6"  align="center">
+				  <div class="threed">
                 <div class="title">vs. Humidity</div>
                 <a href="humidity.html" target="_blank">
                   <img src="Resources/assets/images/Fig2.png" alt="Humidity Graph" width="500" class="panel img-thumbnail img-fluid">
                 </a>
+				  </div>
               </div>
             </div>
 
             <div class="row">
               <div class="col-lg-6" align="center">
+				  <div class="threed">
                 <div class="title">vs. Cloudiness</div>
                 <a href="cloudiness.html" target="_blank">
                   <img src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph" width="500" class="panel img-thumbnail img-fluid">
                 </a>
-
+				  </div>
               </div>
               <div class="col-lg-6" align="center">
+				  <div class="threed">
                 <div class="title">vs. Wind Speed</div>
                 <a href="wind_speed.html" target="_blank">
                   <img src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph" width="500" class="panel img-thumbnail img-fluid">
                 </a>
+				  </div>
               </div>
             </div>
           </div>

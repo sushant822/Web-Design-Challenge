@@ -8,13 +8,20 @@
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	    <link rel="stylesheet" href="style.css">
-	
+	<style>
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+</style>
   </head>
   <body>
   	<!-- body code goes here -->
 <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand shadow-sm p-2 mb-0 rounded" style="background-color: #34495E;" href="index.html"><strong>Latitude</strong></a>
+          <a class="navbar-brand shadow-sm p-2 mb-0 rounded" style="background-color: #34495E; text-shadow: 0px 0px" href="index.html"><strong>Latitude</strong></a>
           <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -65,27 +72,39 @@
               <div class="container">
                 <div class="row" style="padding-bottom: 30px;">
                   <div class="col-6">
+					  <div class="grow">
                     <a href="max_temperature.html" target="_self">
                       <img src="Resources/assets/images/Fig1.png" width="500" class="panel img-fluid img-thumbnail">
                     </a>
+						  <div align="center"><p style="color:gray;font-size:14px;">Max Temperature</p></div>
+					  </div>
                   </div>
                   <div class="col-6">
+					  <div class="grow">
                     <a href="humidity.html" target="_self">
                       <img src="Resources/assets/images/Fig2.png" width="504" height="347" class="panel img-fluid img-thumbnail">
                     </a>
+						  <div align="center"><p style="color:black;font-size:14px;"><b>Humidity</b></p></div>
+					  </div>
                   </div>
                 </div>
     
                 <div class="row" style="padding-bottom: 30px;">
                   <div class="col-6">
+					  <div class="grow">
                     <a href="cloudiness.html" target="_self">
                       <img src="Resources/assets/images/Fig3.png" width="500" class="panel img-fluid img-thumbnail">
                     </a>
+						  <div align="center"><p style="color:gray;font-size:14px;">Cloudiness</p></div>
+					  </div>
                   </div>
                   <div class="col-6">
+					  <div class="grow">
                     <a href="wind_speed.html" target="_self">
                       <img src="Resources/assets/images/Fig4.png" width="500" class="panel img-fluid img-thumbnail">
                     </a>
+						  <div align="center"><p style="color:gray;font-size:14px;">Wind Speed</p></div>
+					  </div>
                   </div>
     
     
